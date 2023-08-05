@@ -1,0 +1,26 @@
+.header {
+  background-image: url('https://promoshop.fr/modules/ph_simpleblog/covers/29.jpg');
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: relative;
+    width: 100vw;
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .headerwelcome{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  
+  
