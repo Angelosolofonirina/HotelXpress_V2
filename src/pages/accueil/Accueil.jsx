@@ -1,7 +1,7 @@
 import "./accueil.css";
 import Navbar from "../../commone/navbar/Navbar";
 import MailList from "../../commone/mailList/MailList";
-import Header from "./header/Header";
+import Header from "./headerAccueil/HeaderAccueil";
 import Footer from "../../commone/footer/Footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -82,7 +82,7 @@ const Accueil = () => {
           </div>
         )}
         <div className="hotelWrapper">
-          <Link to='/reservation'><button className="bookNow">Réservez ou réservez maintenant!</button></Link>
+          <Link to='/reservation'><button className="bookNow">Reserve or Book Now!</button></Link>
           <h1 className="hotelTitle">Tower Street Appartements</h1>
           <div className="hotelAddress">
             <FontAwesomeIcon icon={faLocationDot} />
@@ -135,7 +135,7 @@ const Accueil = () => {
               <h2>
                 <b>$945</b> (9 nuits)
               </h2>
-              <button>Réservez ou réservez maintenant!</button>
+              <button>Reserve or Book Now!</button>
             </div>
           </div>
         </div>

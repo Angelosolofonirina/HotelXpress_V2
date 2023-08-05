@@ -26,6 +26,17 @@
   
   .fListItem{
     margin-bottom: 10px;
-    /* color: #003580; */
     cursor: pointer;
   }
+
+  
+  @media  (max-width: 425px){
+  .fLists{
+    flex-wrap: wrap !important;
+  }
+
+  .fList{
+    width: 30% !important;
+  }
+  }
+  

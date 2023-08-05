@@ -10,4 +10,11 @@
 .homeTitle{
   width: 1024px;
   font-size: 20px;
+  text-align: center;
 }
+
+@media  (max-width: 425px){
+  .homeTitle{
+    width: auto;
+  }
+  }

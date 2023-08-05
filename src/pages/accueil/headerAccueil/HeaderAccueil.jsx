@@ -1,8 +1,8 @@
 import React from 'react'
-import "./header.css";
+import "./headerAccueil.css";
 const Header = () => {
   return (
-    <div className="header"> 
+    <div className="headerAccueil"> 
     <div className="headerwelcome">
         <span>
           Hôtel & Resto

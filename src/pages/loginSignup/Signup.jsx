@@ -15,7 +15,7 @@ const Signup = (onSignup) => {
     }
 
   return (
-    <div className="Signup template d-flex justify-content-center align-items-center vh-100 bg-primary">
+    <div className="loginContainer Signup template d-flex justify-content-center align-items-center vh-100y">
         <div className='form_container p-5 rounded bg-white'>
             <form>
                 <h3 className='text-center'>Sign Up</h3>
@@ -48,7 +48,7 @@ const Signup = (onSignup) => {
                     <button className='btn btn-primary' onClick={handleSignup}>Sign Up</button>
                 </div>
                 <p className='text-end mt-2'>
-                    Already Registerd <Link to="/" className='ms-2'>Sign in</Link>
+                    Already Registerd <Link to="/signin" className='ms-2'>Sign in</Link>
                 </p>
             </form>
         </div>
