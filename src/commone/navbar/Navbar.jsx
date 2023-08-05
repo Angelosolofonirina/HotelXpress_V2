@@ -25,23 +25,23 @@ const Navbar = () => {
               <i class="fa-solid fa-bars"></i>
             </div>
           <ul id="nav-menu" className={click? "nav-menu active" : "nav-menu"}>
-            <li><Link to="/" onClick={closeMobileMenu}>Accueil</Link></li>
-            <li ><Link to="/reservation">Réservations</Link></li>
-            <li><Link to="/chambre" onClick={closeMobileMenu}>Chambres</Link></li>
-            <li><Link to="/hotels" id="List" onClick={closeMobileMenu}>Hôtels
+            <li><Link to="/" onClick={closeMobileMenu}>Reception</Link></li>
+            <li ><Link to="/reservation">Reservations</Link></li>
+            <li><Link to="/chambre" onClick={closeMobileMenu}>Rooms</Link></li>
+            <li id="List"><Link to="/hotels" onClick={closeMobileMenu}>Hotels
             <ul className="sousList">
-            <li><Link to="/promotions" onClick={closeMobileMenu}>Promotions</Link></li>
-            <li><Link to="/commentaires" onClick={closeMobileMenu}>Commentaires</Link></li>
-            <li><Link to="/partenariats" onClick={closeMobileMenu}>Partenariats</Link></li>
-            <li><Link to="/signets" onClick={closeMobileMenu}>Signets</Link></li>
-            <li><Link to="/medias" onClick={closeMobileMenu}>Médias</Link></li>
-            </ul>
+              <li><Link to="/promotions" onClick={closeMobileMenu}>Promotions</Link></li>
+              <li><Link to="/commentaires" onClick={closeMobileMenu}>Commentaires</Link></li>
+              <li><Link to="/partenariats" onClick={closeMobileMenu}>Partenariats</Link></li>
+              <li><Link to="/signets" onClick={closeMobileMenu}>Signets</Link></li>
+              <li><Link to="/medias" onClick={closeMobileMenu}>Médias</Link></li>
+              </ul>
              </Link></li>
           </ul>
           <div className="login-area flex">
               <li>
-                  <Link to='/sign-in'>
-                  <button className="primary-btn ">Connexion / Inscription</button>
+                  <Link to='/signin'>
+                  <button className="primary-btn ">Login</button>
                 </Link>
               </li>
             </div>

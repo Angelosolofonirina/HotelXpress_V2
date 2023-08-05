@@ -91,11 +91,12 @@ nav i {
 @media screen and (max-width: 768px) {
     .login-area{
         position: absolute;
+        right: 20px;
     }
 
     .login-area button{
         width: auto !important;
-        padding: 0px;
+        padding: 2px;
     }
 
     .navbar{
@@ -136,6 +137,10 @@ nav i {
         font-weight: 200;
     }
 
+    #nav-menu li a:hover{
+        color: #000;
+    }
+
     .menu_icon{
         display: block;
         position: absolute;
@@ -147,6 +152,10 @@ nav i {
 
     .fa-times{
         font-size: 2rem;
+    }
+
+    #List:hover .sousList{
+        display: block !important;
     }
 
     .sousList{

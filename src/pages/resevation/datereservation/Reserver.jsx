@@ -42,7 +42,7 @@ const Reserver = ({type}) => {
     };
   
     const handleSearch = () => {
-      navigate("/signup", { state: { destination, date, options } });
+      navigate("/chambre", { state: { destination, date, options } });
   };
 
   return (
