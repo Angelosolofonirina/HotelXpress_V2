@@ -1,0 +1,10 @@
+insert into promotion (id, start_date, end_date, reduction, description) values (1, '0033-04-19', '17/07/2030', 2.78, 'Duis aute irure dolor in reprehenderit');
+insert into promotion (id, start_date, end_date, reduction, description) values (2, '0628-10-14', '18/07/2030', 2.23, 'Lorem ipsum dolor sit amet');
+insert into promotion (id, start_date, end_date, reduction, description) values (3, '0341-07-11', '15/07/2030', 4.16, 'Ut labore et dolore magna aliqua');
+insert into promotion (id, start_date, end_date, reduction, description) values (4, '0840-07-07', '14/07/2030', 3.36, 'Consectetur adipiscing elit');
+insert into promotion (id, start_date, end_date, reduction, description) values (5, '1774-02-07', '15/07/2030', 3.26, 'Laboris nisi ut aliquip ex ea commodo consequat');
+insert into promotion (id, start_date, end_date, reduction, description) values (6, '1767-03-25', '17/07/2030', 2.62, 'Sed do eiusmod tempor incididunt');
+insert into promotion (id, start_date, end_date, reduction, description) values (7, '1960-12-09', '19/07/2030', 3.47, 'Consectetur adipiscing elit');
+insert into promotion (id, start_date, end_date, reduction, description) values (8, '1754-09-11', '18/07/2030', 3.6, 'Voluptate velit esse cillum dolore');
+insert into promotion (id, start_date, end_date, reduction, description) values (9, '0699-06-13', '19/07/2030', 3.52, 'Voluptate velit esse cillum dolore');
+insert into promotion (id, start_date, end_date, reduction, description) values (10, '0462-07-15', '14/07/2030', 4.89, 'Quis nostrud exercitation ullamco');

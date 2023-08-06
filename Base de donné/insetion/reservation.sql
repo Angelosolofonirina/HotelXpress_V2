@@ -1,0 +1,10 @@
+insert into reservation (id, arrival, departure, date_reservation, user_id, is_annulled) values (1, '2023-12-17 04:11:02', '2025-04-11 22:36:50', '2022-10-15 00:09:39', 88, false);
+insert into reservation (id, arrival, departure, date_reservation, user_id, is_annulled) values (2, '2023-09-16 06:59:40', '2025-02-05 09:01:34', '2022-08-06 19:28:13', 14, false);
+insert into reservation (id, arrival, departure, date_reservation, user_id, is_annulled) values (3, '2023-12-10 03:08:00', '2024-12-20 14:55:37', '2022-12-26 18:06:44', 100, false);
+insert into reservation (id, arrival, departure, date_reservation, user_id, is_annulled) values (4, '2024-05-03 17:30:22', '2025-01-12 02:46:23', '2023-05-01 22:38:58', 13, true);
+insert into reservation (id, arrival, departure, date_reservation, user_id, is_annulled) values (5, '2024-06-14 09:14:02', '2025-01-22 14:38:06', '2022-10-10 11:48:53', 12, false);
+insert into reservation (id, arrival, departure, date_reservation, user_id, is_annulled) values (6, '2023-09-23 02:22:46', '2025-02-15 03:44:48', '2023-02-13 19:58:41', 22, true);
+insert into reservation (id, arrival, departure, date_reservation, user_id, is_annulled) values (7, '2024-05-31 13:26:51', '2025-05-16 22:46:44', '2023-07-13 12:38:24', 91, false);
+insert into reservation (id, arrival, departure, date_reservation, user_id, is_annulled) values (8, '2024-07-04 22:00:00', '2025-01-03 19:39:09', '2023-02-08 10:31:00', 19, true);
+insert into reservation (id, arrival, departure, date_reservation, user_id, is_annulled) values (9, '2023-12-05 20:21:46', '2025-06-14 08:58:06', '2023-03-05 19:15:33', 88, true);
+insert into reservation (id, arrival, departure, date_reservation, user_id, is_annulled) values (10, '2024-03-13 16:49:34', '2025-04-26 14:15:22', '2022-12-26 09:53:53', 76, true);
