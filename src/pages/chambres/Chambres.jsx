@@ -68,14 +68,6 @@ const Chambres = () => {
           </div>
           <div className="listResult"  id="body">
             <SearchItem />
-            <SearchItem />
-            <SearchItem />
-            <SearchItem />
-            <SearchItem />
-            <SearchItem />
-            <SearchItem />
-            <SearchItem />
-            <SearchItem />
           </div>
         </div>
       </div>

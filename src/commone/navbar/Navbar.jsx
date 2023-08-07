@@ -28,15 +28,7 @@ const Navbar = () => {
             <li><Link to="/" onClick={closeMobileMenu}>Reception</Link></li>
             <li ><Link to="/reservation">Reservations</Link></li>
             <li><Link to="/chambre" onClick={closeMobileMenu}>Rooms</Link></li>
-            <li id="List"><Link to="/hotels" onClick={closeMobileMenu}>Hotels
-            <ul className="sousList">
-              <li><Link to="/promotions" onClick={closeMobileMenu}>Promotions</Link></li>
-              <li><Link to="/commentaires" onClick={closeMobileMenu}>Commentaires</Link></li>
-              <li><Link to="/partenariats" onClick={closeMobileMenu}>Partenariats</Link></li>
-              <li><Link to="/signets" onClick={closeMobileMenu}>Signets</Link></li>
-              <li><Link to="/medias" onClick={closeMobileMenu}>Médias</Link></li>
-              </ul>
-             </Link></li>
+            <li><Link to="/hotels" onClick={closeMobileMenu}>Hotels</Link></li>
           </ul>
           <div className="login-area flex">
               <li>
