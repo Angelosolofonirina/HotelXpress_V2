@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
 
     <nav className="navbar">
-          <div className="container flex_space">
+      <div className="container flex_space">
           <li className="Logo">
                 <Link to='/'>
                 <FontAwesomeIcon icon={faBed} />
@@ -41,10 +41,14 @@ const Navbar = () => {
           <div className="login-area flex">
               <li>
                   <Link to='/signin'>
-                  <button className="primary-btn ">Login</button>
+                  <button className="primary-btn">Login</button>
                 </Link>
               </li>
-            </div>
+              <form class="search">
+              <input type="text" placeholder="Search.." name="search"/>
+              <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+          </div>
       </div>
     </nav>
   )

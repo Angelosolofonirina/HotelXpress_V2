@@ -59,12 +59,13 @@ nav i {
     color: #fff;
 }
 
-.login-area a{
+.login_area a{
     font-weight: 3 00;
     opacity: 0.8;
     font-size: 15px;
     color: #fff;
 }
+
 
 
 
@@ -87,6 +88,30 @@ nav i {
 #List:hover .sousList{
     display: block;
 }
+
+
+.search{
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.search input{
+    height: 5vh;
+    padding: 5px;
+    outline: none;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.search::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 @media screen and (max-width: 768px) {
     .login-area{
